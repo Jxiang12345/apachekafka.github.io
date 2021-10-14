@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #161616;
+  color: #fff;
+}
+
+.sidebar {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #212123;
+  overflow-x: hidden;
+  padding-top: 16px;
+}
+
+.sidebar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  margin-left: 6%;
+  font-size: 15px;
+  color: #fff;
+  display: block;
+}
+
+.sidebar a:hover {
+  color: #ffd700;
+}
+
+.main {
+  margin-left: 200px; /* Same as the width of the sidenav */
+  padding: 0px 10px;
+}
+
+table, th, td {
+  border: 1px solid cyan;
+}
+
+hr {
+  width: 120px;
+  margin-left: 15%;
+  background-color: gray;
+}
+</style>
+</head>
+<body>
+
+<div class="sidebar">
+  <h4 style="margin-left: 15%;"> MONITORING </h4>
+  <hr>
+  <a href="#home"><i class="fa fa-fw fa-home"></i> Home</a>
+  <a href="#datastream"><i class="fa fa-fw fa-database"></i> Data Streams</a>
+</div>
+
+<div class="main" id="datastream">
+  <h3> Data Streams </h3>
+
+  <script id="infogram_0_8d8e971a-cc49-4218-845f-6c4b8b6593f9" title="Radial bar chart" src="https://e.infogram.com/js/dist/embed.js?Ypp" type="text/javascript">
+  </script>
+  <div style="padding:8px 0;font-family:Arial!important;font-size:13px!important;line-height:15px! important;text-align:center;border-top:1px solid #dadada;margin:0 30px">
+  </div>
+
+  <table style="width: 100%">
+  <colgroup>
+    <col span="1" style="width: 50px">
+    <col span="4" style="width: auto">
+  </colgroup>
+  <tr>
+    <th style="height: 35px">#</th>
+    <th>Processed Timestamp</th>
+    <th>Event</th>
+    <th>Activity</th>
+  </tr>
+  <tr>
+    <th>1</th>
+    <td style="text-align:center">2021-10-30 00:00:01</td>
+    <td style="text-align:center">syslog-ng</td>
+    <td style="padding-left:1%">Search keywords 'colombian coffee mixed package'</td>
+  </tr>
+  <tr>
+    <th>2</th>
+    <td style="text-align:center">2021-10-30 00:00:01</td>
+    <td style="text-align:center">syslog-ng</td>
+    <td style="padding-left:1%"></td>
+  </tr>
+  <tr>
+    <th>3</th>
+    <td style="text-align:center">2021-10-30 00:00:01</td>
+    <td style="text-align:center">syslog-ng</td>
+    <td style="padding-left:1%"></td>
+  </tr>
+  <tr>
+    <th>4</th>
+    <td style="text-align:center">2021-10-30 00:00:01</td>
+    <td style="text-align:center">syslog-ng</td>
+    <td style="padding-left:1%"></td>
+  </tr>
+  <tr>
+    <th>5</th>
+    <td style="text-align:center">2021-10-30 00:00:01</td>
+    <td style="text-align:center">syslog-ng</td>
+    <td style="padding-left:1%"></td>
+  </tr>
+  <tr>
+    <th>6</th>
+    <td style="text-align:center">2021-10-30 00:00:01</td>
+    <td style="text-align:center">syslog-ng</td>
+    <td style="padding-left:1%"></td>
+  </tr>
+  <tr>
+    <th>7</th>
+    <td style="text-align:center">2021-10-30 00:00:01</td>
+    <td style="text-align:center">syslog-ng</td>
+    <td style="padding-left:1%"></td>
+  </tr>
+  <tr>
+    <th>8</th>
+    <td style="text-align:center">2021-10-30 00:00:01</td>
+    <td style="text-align:center">syslog-ng</td>
+    <td style="padding-left:1%"></td>
+  </tr>
+</table>
+</div>
+     
+</body>
+</html> 
